@@ -42,13 +42,13 @@ module.exports = function (sequelize, DataTypes) {
         len: [1]
       }
     },
-    categoryID: {
-      type: DataTypes.INTEGER,
-      allowNull: false,
-      validate: {
-        len: [1]
-      }
-    }
+    // categoryID: {
+    //   type: DataTypes.INTEGER,
+    //   allowNull: false,
+    //   validate: {
+    //     len: [1]
+    //   }
+    // }
 
   });
 

@@ -1,6 +1,7 @@
 var db = require("../models")
 module.exports = function (app) {
     app.get("/api/products/category/:id", function (req, res) {
+        console.log(req.params)
         db.Product.findAll({
             // include: [db.Product],
             where: {

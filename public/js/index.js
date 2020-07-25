@@ -1,11 +1,11 @@
 const emailAddress = $("#modalUserEmail")
 
-$(".modalBtn").on("submit", emailSubmit())
+$(".modalBtn").on("submit", emailSubmit)
 
 
 function emailSubmit(event) {
     event.preventDefault();
-    if (!emailAddress.val().trim()){
+    if (!emailAddress.val().trim()) {
         return;
     }
     postEmails({
